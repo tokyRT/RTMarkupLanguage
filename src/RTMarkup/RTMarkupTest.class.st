@@ -6,6 +6,22 @@ Class {
 }
 
 { #category : 'tests' }
+RTMarkupTest >> testAsHTML [
+
+	| doc |
+	doc := RTMDocument new.
+	doc
+		add: (RTMTitle new text: 'Mon titre');
+		add: (RTMParagraph new text: 'Lorem ipsum').
+	
+	
+	self assert: doc asHTMLString equals: 
+'<h1>Mon titre</h1>
+<p>Lorem ipsum</p>
+'
+]
+
+{ #category : 'tests' }
 RTMarkupTest >> testCode [
 
 	| code |
