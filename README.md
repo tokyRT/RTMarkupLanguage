@@ -4,7 +4,7 @@ J'ai créé un format de document: le **RTML** (RT Markup Language). Afin d'appr
 <img width="1203" height="668" alt="image" src="https://github.com/user-attachments/assets/4e0538ff-2152-4ee4-a5d1-340c209d11ca" />
 
 # Installation
-Coller puis lancer (cliquer sur `Do it all` ce code dans le playground afin d'installer le projet dans votre image Pharo:
+Coller ce code dans le playground puis lancer (cliquer sur `Do it all`), afin d'installer le projet dans votre image Pharo:
 ```st
 Metacello new
 	baseline: 'RTMarkup';
